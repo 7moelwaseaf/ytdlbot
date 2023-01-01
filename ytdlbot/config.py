@@ -27,7 +27,7 @@ TG_MAX_SIZE = 10 * 1024 * 1024 * 1024 * 0.99
 # TG_MAX_SIZE = 10 * 1024 * 1024
 
 EX = os.getenv("EX", 24 * 3600)
-MULTIPLY = os.getenv("MULTIPLY", 5)  # VIP1 is 5*5-25G, VIP2 is 50G
+MULTIPLY = os.getenv("MULTIPLY", 10)  # VIP1 is 5*5-25G, VIP2 is 50G
 USD2CNY = os.getenv("USD2CNY", 6)  # $5 --> ¥30
 
 ENABLE_VIP = os.getenv("VIP", False)
