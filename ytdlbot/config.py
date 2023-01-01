@@ -58,5 +58,5 @@ ARCHIVE_ID = os.getenv("ARCHIVE_ID")
 
 IPv6 = os.getenv("IPv6", False)
 ENABLE_FFMPEG = os.getenv("ENABLE_FFMPEG", False)
-RATE = float(os.getenv("RATE", 1 * 1))
-BURST = int(os.getenv("BURST", 1))
+RATE = float(os.getenv("RATE", 1 * 0.1))
+BURST = int(os.getenv("BURST", 10))
